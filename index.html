@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Marvel Gifs</title>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class = "row" id="header">
+        	<div class="col-md-3 inlineBlock">
+        		<img src="assets/images/giphy-logo-3.gif" class="headerImage inlineBlock">
+        	</div>
+        	<div class="col-md-6 inlineBlock">
+            	<h1 id="heading" onClick="window.location.reload()">
+            	Marvel-lous Giphs ! </h1>
+            	<h5 id="subheading"> Click Buttons To Display Gifs! &nbsp;&nbsp;Click Gifs to Play/Pause!
+            	 </h5>
+            </div>
+	         <div class="col-md-3 inlineBlock">
+		        <form role="search">
+		        <div class="input-group search-form">
+		            <input type="text" class="form-control" 
+		            placeholder="Enter new button" name="search-gif" id="search-gif">
+		            <div class="input-group-btn">
+		                <button class="btn btn-default btn-add" type="submit" id="add-btn">
+		               	<i class="glyphicon glyphicon-search"></i>
+		                </button>
+		            </div>
+		        </div>
+		        </form>
+	        </div>
+        </div>
+	</div>
+</header>
+
+<main>   
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" id="button-holder"></div>		
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="gif-holder"></div>		
+		</div>
+	</div>
+</main>
+
+<footer>
+	<div class="container text-center" id='footer'>
+		<div class="row">
+			<div class="col-md-12">
+				Copyright &copy; AshaTad 2017
+			</div>	
+		</div>
+	</div>   
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
