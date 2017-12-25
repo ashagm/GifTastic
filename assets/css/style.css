@@ -4,6 +4,7 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Acme', cursive;
+	max-height: 100%;
 }
 
 header{
@@ -38,46 +39,49 @@ header{
 
 #button-holder{
 	margin: 10px auto;
-	border: 2px solid #ffffff;
+	border: 2px solid #fff;
 	background-color: #000019;
 	opacity: 0.5;
 }
 
-.marvel_btn{
+.btn-marvel{
 	padding: 5px 30px;
 	margin : 10px;
 	text-align: center;
-	background-color: #ffffff;
+	background-color: #fff;
 	color: #00007f;
 	font-size: 18px;
 	text-transform: capitalize; 
 }
 
-.marvel_btn:hover{
+.btn-marvel:hover{
 	background-color: #00007f;
-	color: #ffffff;
+	color: #fff;
+	border: 2px solid #fff;
+
 }
 
 #gif-holder{
 	margin: 0 auto;
-	border: 2px solid #ffffff;
+	border: 2px solid #fff;
 	background-color: #000019;
+	opacity: 0.9;
 }
 
-.gif-div{
+.div-gif{
 	position: relative;
 	float : left;
-	background-color: #ffffff;
+	background-color: #fff;
 	margin : 10px 13px;
 }
 
-.gif-div img{
+.div-gif img{
 	width: 350px;
 	height: 160px;
 	border: 2px solid #ffffff;
 }
 
-.gif-div img:hover{
+.div-gif img:hover{
 	border: 5px solid red;
 }
 
@@ -87,7 +91,7 @@ header{
 	left: 10px;
 	background-color: #000019;
 	padding: 5px;
-	color: #ffffff;
+	color: #fff;
 	font-size: 18px;
 }
 
