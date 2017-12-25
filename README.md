@@ -5,4 +5,4 @@ Dynamic page that populates Gifs, uses GIPHY API, HTML5, CSS3, Bootstrap, JQuery
 
 images credits - Giphy and internet
 
-[Click here to view](http://ashagm.github.io/GifTastic)
+[Click here to view](https://ashagm.github.io/GifTastic)

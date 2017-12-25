@@ -8,6 +8,17 @@ const limitResults = 9;
 
 renderButtons();
 
+$('#add-btn').click(function(event){
+	event.preventDefault();
+
+	let newBtnVal = $('#search-gif').val().trim();
+	marvelCharactersArr.push(newBtnVal);
+	$('#search-gif').val("");
+	$("#button-holder").empty();
+	renderButtons();
+	callAPI(newBtnVal);
+});
+
 $(".btn-marvel").click(function(){
 	callAPI($(this).data('name'));
 });

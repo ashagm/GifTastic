@@ -28,18 +28,17 @@ header{
 	cursor: pointer;
 }
 
-.headerImage {
+.img-header {
 	height: 110px;
 	width: 200px;
 }
 
-.inlineBlock{
+.inline-block{
 	display: inline;
 }
 
 #button-holder{
-	margin: 10px auto;
-	border: 2px solid #fff;
+	margin-top: 10px;
 	background-color: #000019;
 	opacity: 0.5;
 }
@@ -62,9 +61,9 @@ header{
 }
 
 #gif-holder{
-	margin: 0 auto;
-	border: 2px solid #fff;
+	margin: 10px auto;
 	background-color: #000019;
+	border-top: 1px solid #fff;
 	opacity: 0.9;
 }
 
